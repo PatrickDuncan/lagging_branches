@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 # Args
-[ -z ${1} ] && BRANCH='master' || BRANCH=${1}
-[ -z ${2} ] && REMOTE='origin' || REMOTE=${2}
-[ -z ${3} ] && FETCH='no' || FETCH=${3}
+BRANCH=${1:-master}
+REMOTE=${2:-origin}
+FETCH=${3:-no}
 REMOTE_BRANCH="remotes/${REMOTE}/${BRANCH}"
 
 # Colours

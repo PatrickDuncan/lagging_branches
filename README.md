@@ -6,17 +6,17 @@ One way to avoid this issue is to use this tool! This tool lists every branch th
 
 ### Requirements
 
-- Bash
+- sh
 
 ### Installation
 
 1. Clone this repository
 2. Enter your project
-3. Run `./<path>/lagging_branches.bash [Options]`
+3. Run `./<path>/lagging_branches.sh [Options]`
 
 ### Options
 
-`lagging_branches.bash [Branch] [Remote] [Fetch]`
+`lagging_branches.sh [Branch] [Remote] [Fetch]`
 
 #### Branch
 
@@ -38,4 +38,4 @@ Whether you want to the script to fetch the remote (it also prunes). Anything ot
 
 ### Example
 
-`./<path>/lagging_branches.bash new-users staging yes`
+`./<path>/lagging_branches.sh new-users staging yes`
